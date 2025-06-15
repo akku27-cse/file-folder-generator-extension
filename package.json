@@ -1,0 +1,96 @@
+{
+  "name": "file-folder-generator",
+  "displayName": "File Folder Generator",
+  "description": "Generate complete file and folder structures with templates based on simple prompts",
+  "version": "1.0.0",
+  "publisher": "santujana",
+  "author": {
+    "name": "Santu Jana",
+    "email": "santujana1827@gmail.com"
+   
+  },
+  "homepage": "https://github.com/akku27-cse/file-folder-generator/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akku27-cse/file-folder-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/akku27-cse/file-folder-generator/issues"
+  },
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Other",
+    "Snippets",
+    "Programming Languages"
+  ],
+  "keywords": [
+    "scaffolding",
+    "generator",
+    "template",
+    "boilerplate",
+    "files",
+    "folders"
+  ],
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#0078D7",
+    "theme": "dark"
+  },
+  "activationEvents": [
+    "onCommand:file-folder-generator.generate"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "file-folder-generator.generate",
+        "title": "Generate Files/Folders Structure"
+      }
+    ],
+    "menus": {
+      "explorer/context": [
+        {
+          "command": "file-folder-generator.generate",
+          "group": "navigation",
+          "when": "explorerResourceIsFolder"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile",
+    "test": "node ./out/test/runTest.js",
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.75.0",
+    "@types/node": "16.x",
+    "eslint": "^8.34.0",
+    "typescript": "^4.9.5",
+    "vsce": "^2.15.0"
+  },
+  "license": "MIT",
+  "badges": [
+    {
+      "url": "https://img.shields.io/visual-studio-marketplace/v/your-publisher-name.file-folder-generator.svg",
+      "href": "https://marketplace.visualstudio.com/items?itemName=your-publisher-name.file-folder-generator",
+      "description": "Version"
+    },
+    {
+      "url": "https://img.shields.io/visual-studio-marketplace/d/your-publisher-name.file-folder-generator.svg",
+      "href": "https://marketplace.visualstudio.com/items?itemName=your-publisher-name.file-folder-generator",
+      "description": "Downloads"
+    },
+    {
+      "url": "https://img.shields.io/visual-studio-marketplace/i/your-publisher-name.file-folder-generator.svg",
+      "href": "https://marketplace.visualstudio.com/items?itemName=your-publisher-name.file-folder-generator",
+      "description": "Installs"
+    }
+  ]
+}

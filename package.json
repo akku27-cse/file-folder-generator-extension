@@ -2,7 +2,7 @@
   "name": "file-folder-generator",
   "displayName": "File Folder Generator",
   "description": "Generate complete file and folder structures with templates based on simple prompts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "santujana",
   "author": {
     "name": "Santu Jana",

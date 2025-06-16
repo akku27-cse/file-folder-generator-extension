@@ -33,7 +33,7 @@
     "files",
     "folders"
   ],
-
+ "icon": "images/icon.png",
   "galleryBanner": {
     "color": "#0078D7",
     "theme": "dark"

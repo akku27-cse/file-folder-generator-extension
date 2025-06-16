@@ -101,3 +101,13 @@ Contributions are welcome! To contribute:
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## 💼 Hire Me / Referral Opportunity
+
+If you or your company are looking for a skilled developer, I'm available for:
+
+[![View Resume](https://img.shields.io/badge/View_My_Resume-4285F4?style=for-the-badge&logo=google-drive&logoColor=white)](https://drive.google.com/file/d/1dw0IlXy2QaXylkZObuW9DU8rf4C1KX7T/view?usp=drive_link)
+[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/santu-jana-29a923257/)
+[![Email](https://img.shields.io/badge/Contact_via_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.santujana1827@gmail.com)
+
+Referrals and opportunities are greatly appreciated!

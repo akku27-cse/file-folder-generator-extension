@@ -7,6 +7,7 @@
 
 A VS Code extension to quickly scaffold file and folder structures using customizable templates and simple prompts.
 
+
 # Demo Video
 <video src="demo/video.mp4" width="400" height="200" controls>
   Your browser does not support the video tag.

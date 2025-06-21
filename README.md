@@ -17,7 +17,6 @@ A VS Code extension to quickly scaffold file and folder structures using customi
 
 - Use it and if face any problems feel free to contact me or clone the repo and after solve raise a pr
 
-
 ## Features
 
 - Scaffold project structures with a single command

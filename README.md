@@ -7,6 +7,7 @@
 
 A VS Code extension to quickly scaffold file and folder structures using customizable templates and simple prompts.
 
+
 ![image](https://github.com/user-attachments/assets/6008bd3f-d3c3-4f5d-ae61-61894caba18e)
 
 - Use it and if face any problems feel free to contact me or clone the repo and after solve raise a pr
